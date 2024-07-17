@@ -6,3 +6,4 @@ st.write(
 )
 st.write("Testando configurações Streamlit")
 st.button('Hit me')
+st.text_input('Enter some text')
