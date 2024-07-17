@@ -7,4 +7,4 @@ st.write(
 st.write("Testando configurações Streamlit")
 st.button('Hit me')
 st.text_input('Enter some text')
-st.image('./HAVAL/carga_naocarregando.png')
+st.image('./haval_h6/carga_naocarregando.png')
