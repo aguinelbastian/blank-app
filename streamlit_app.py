@@ -7,5 +7,8 @@ st.write(
 st.write("Testando configurações Streamlit")
 st.button('Hit me')
 st.text_input('Enter some text')
-st.image('./haval_h6/carga_naocarregando.png')
-st.image('./haval_h6/porta_malas.png')
+
+col1, col2 = st.columns(2)
+
+col1.st.image('./haval_h6/carga_naocarregando.png')
+col2.st.image('./haval_h6/porta_malas.png')
