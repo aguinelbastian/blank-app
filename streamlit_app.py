@@ -10,5 +10,5 @@ st.text_input('Enter some text')
 
 col1, col2 = st.columns(2)
 
-col1[st.image('./haval_h6/carga_naocarregando.png')]
-col2[st.image('./haval_h6/porta_malas.png')]
+col1('./haval_h6/carga_naocarregando.png')
+col2('./haval_h6/porta_malas.png')
